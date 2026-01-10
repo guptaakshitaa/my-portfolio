@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const RESUME_URL = 'https://drive.google.com/file/d/1UzM5qT-eVC3wcrkgHUSdL2hvSYmYefHT/view'; // Correcting to a placeholder of her vercel URL
+  const RESUME_URL = 'https://drive.google.com/file/d/1ZXUDhN3ohXxTb2bEevzC1HGRAuzsAFu-/view?usp=sharing'; // Correcting to a placeholder of her vercel URL
 
   return (
     <div className="flex flex-col gap-12 max-w-2xl">
