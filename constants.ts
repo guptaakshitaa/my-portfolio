@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     title: 'CodeMigrator AI',
     description: 'A web application designed to modernise legacy code. De-risks modernization by semantically extracting business logic, reducing migration timelines from years to minutes and cutting costs by 60–80%. Powered by Gemini 3 Pro.',
     tech: ['Gemini 3 Pro', 'TypeScript', 'Next.js', 'LLMs'],
-    link: 'https://github.com'
+    link: 'https://drive.google.com/file/d/1JIm5CPIuZYseN8SyvJcQ9_wrbkOo9XRN/view?usp=sharing'
   },
   {
     id: '1',
