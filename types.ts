@@ -13,6 +13,14 @@ export interface Project {
   link?: string;
 }
 
+export interface Paper {
+  id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  link: string;
+}
+
 export interface Blog {
   id: string;
   title: string;
