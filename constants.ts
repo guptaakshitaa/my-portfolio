@@ -1,5 +1,5 @@
 
-import { Greeting, Project, Paper, Blog, Experience, Skill } from './types';
+import { Greeting, Project, Paper, Blog, Experience } from './types';
 
 export const GREETINGS: Greeting[] = [
   { lang: 'English', text: 'Hello' },
@@ -69,7 +69,7 @@ export const EXPERIENCES: Experience[] = [
   }
 ];
 
-export const SKILLS = Skill[]=[
+export const SKILLS = 
   {
   languages: ['Python', 'Java', 'C', 'JavaScript'],
   backend: ['REST APIs', 'FastAPI', 'Node.js', 'Express.js'],
@@ -77,4 +77,3 @@ export const SKILLS = Skill[]=[
   tools: ['Git', 'GitHub', 'Tableau', 'Excel', 'Postman'],
   concepts: ['OOP', 'DSA', 'ML', 'SHAP', 'SDLC']
 }
-];
