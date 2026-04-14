@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PROJECTS, BLOGS } from '../constants';
+import { PROJECTS, PUBLICATIONS, BLOGS } from '../constants';
 
 const Projects: React.FC = () => {
   return (
