@@ -49,23 +49,23 @@ const Projects: React.FC = () => {
   {/* Publications */}
       <div className="flex flex-col gap-10 mt-12">
         <div className="border-b border-neutral-100 dark:border-neutral-800 pb-4">
-          <h2 className="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white">Blogs</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white">Publications</h2>
         </div>
 
         <div className="flex flex-col gap-12">
-          {BLOGS.map((blog) => (
-            <div key={blog.id} className="group flex flex-col gap-4">
+          {PUBLICATIONS.map((paper) => (
+            <div key={paper.id} className="group flex flex-col gap-4">
               <div className="flex flex-col gap-2">
                 <h3 className="text-2xl font-semibold text-neutral-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors cursor-pointer leading-tight">
-                  {blog.title}
+                  {paper.title}
                 </h3>
                 <p className="text-base text-neutral-600 dark:text-neutral-400 font-light leading-relaxed max-w-3xl">
-                  {blog.description}
+                  {paper.description}
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-3 mb-2">
-                {blog.tags.map(tag => (
+                {paper.tags.map(tag => (
                   <span key={tag} className="text-[10px] text-neutral-400 dark:text-neutral-500 uppercase tracking-widest bg-neutral-50 dark:bg-neutral-800/40 px-3 py-1 rounded-full border border-neutral-100 dark:border-neutral-800/50">
                     {tag}
                   </span>
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
               </div>
 
               <a 
-                href={blog.link} 
+                href={paper.link} 
                 className="inline-flex items-center gap-2 text-sm font-medium text-neutral-900 dark:text-white hover:translate-x-1 transition-transform"
               >
                 Read Paper
