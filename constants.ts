@@ -32,6 +32,16 @@ export const PROJECTS: Project[] = [
   }
 ];
 
+export const PUBLICATIONS: Paper[] = [
+  {
+    id: 'paper-1',
+    title: 'A Survey on AI for Urban Resilience for Advancing SDG 11 in Emerging Cities',
+    description: 'This paper surveys AI-driven approaches for urban resilience in data-scarce contexts, specifically tier-2 and tier-3 cities of India.',
+    tags: ['Urban Resilience', 'Context-Aware AI', 'Lightweight AI Models' , 'Data Scarcity', 'Resource-Constrained Environments.'],
+    link: 'https://ieeexplore.ieee.org/document/11467253/authors#authors'
+  },
+];
+
 export const BLOGS: Blog[] = [
   {
     id: 'blog-1',
