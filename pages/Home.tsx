@@ -41,7 +41,7 @@ const Home: React.FC = () => {
           className="group text-left inline-block"
         >
           <h2 className="text-7xl md:text-9xl font-bold tracking-tighter text-neutral-900 dark:text-white hover:opacity-80 transition-opacity whitespace-nowrap">
-            Akshita Gupta
+            Akshitaa Guptaa
           </h2>
           <div className="flex items-center gap-2 mt-4 text-sm font-medium text-neutral-400 dark:text-neutral-500 group-hover:text-blue-600 transition-colors">
             <span>View Resume</span>
